@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="begin">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarOne/Family.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarOne/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwo/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwo/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwo/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwo/Main.java" afterDir="false" />
+    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="26/01/23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarOne/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarOne/Family.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/seminarOne/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarOne/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarOne/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarOne/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,11 +99,19 @@
       <option name="project" value="LOCAL" />
       <updated>1674387635059</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="26/01/23">
+      <created>1674674887874</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674674887874</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin" />
+    <MESSAGE value="26/01/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="26/01/23" />
   </component>
 </project>

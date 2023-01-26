@@ -44,7 +44,7 @@ public class Person {
         this.sex = sex;
     }
 
-    public void addToFamily(Person p){
+    public void addKid(Person p){
         if (!p.equals(this) && birchDate.isBefore(p.getBirchDate()))
             children.add(p);
     }
@@ -58,6 +58,13 @@ public class Person {
 
     public boolean isBrother(Person parent, Person brother){
         if (isParent(parent) && brother.isParent(parent) && brother.getSex().equals("man")){
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isSister(Person parent, Person Sister){
+        if (isParent(parent) && Sister.isParent(parent) && Sister.getSex().equals("woman")){
             return true;
         }
         return false;

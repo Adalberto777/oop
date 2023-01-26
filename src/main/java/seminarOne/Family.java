@@ -6,13 +6,20 @@ import java.util.List;
 public class Family {
     private List<Person> bigFamily = new ArrayList<>();
 
-    public boolean addToBigFamily(Person person){
+   public void addToBigFamily(Person person){
         if (!bigFamily.contains(person)){
             bigFamily.add(person);
-            return true;
         }
-        return false;
-    }
+   }
+
+   public boolean isFamily(Person person){
+       if (bigFamily.contains(person)){
+           return true;
+       }
+       return false;
+   }
+
 
 
 }
+

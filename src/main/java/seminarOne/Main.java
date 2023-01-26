@@ -13,36 +13,60 @@ public class Main {
         Person Lina = new Person("Lina", LocalDate.of(2024, 03, 15), "woman");
         Person Iskander = new Person("Iskander", LocalDate.of(2023, 12, 15), "man");
 
-        Albert.addToFamily(Rina);
-        Albert.addToFamily(Lina);
-        Albert.addToFamily(Iskander);
+        Albert.addKid(Rina);
+        Albert.addKid(Lina);
+        Albert.addKid(Iskander);
 
-        Liliya.addToFamily(Rina);
-        Liliya.addToFamily(Lina);
-        Liliya.addToFamily(Iskander);
+        Liliya.addKid(Rina);
+        Liliya.addKid(Lina);
+        Liliya.addKid(Iskander);
 
-        printFamily(Albert);
+        Family Tlyashev = new Family();
+        Family Latypov = new Family();
+
+        Tlyashev.addToBigFamily(Albert);
+        Tlyashev.addToBigFamily(Liliya);
+        Tlyashev.addToBigFamily(Rina);
+        Tlyashev.addToBigFamily(Lina);
+        Tlyashev.addToBigFamily(Iskander);
+
+        Latypov.addToBigFamily(Vasilii);
+        Latypov.addToBigFamily(Anya);
+
+        printKid(Albert);
         printCheckParent(Lina, Albert);
         printCheckBrother(Lina, Liliya, Iskander);
+        printCheckSister(Lina, Liliya, Rina);
+        printCheckFamily(Lina, Latypov);
+
     }
-    static void printFamily(Person root){
+
+    private static void printCheckFamily(Person person, Family family) {
+        boolean n = family.isFamily(person);
+        System.out.println(n);
+    }
+
+
+    static void printKid(Person root){
         if (root != null){
             System.out.println(root.getName());
             for (Person item : root.getChildren()){
                 if (item != null){
-                    printFamily(item);
+                    printKid(item);
                 }
             }
         }
     }
-
-
     static void printCheckParent(Person person, Person parent){
         boolean n = person.isParent(parent);
         System.out.println(n);
     }
     static void printCheckBrother(Person person, Person parent, Person brother){
         boolean n = person.isBrother(parent, brother);
+        System.out.println(n);
+    }
+    private static void printCheckSister(Person person, Person parent, Person sister) {
+        boolean n = person.isSister(parent, sister);
         System.out.println(n);
     }
 }
