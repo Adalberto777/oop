@@ -4,10 +4,10 @@ package seminarOneR;
 public class HotWater extends Product {
     private String taste;
     private double volume;
-    private double temperature;
+    private int temperature;
 
 
-    public HotWater(String name, double cost, String taste, double volume, double temperature) {
+    public HotWater(String name, double cost, String taste, double volume, int temperature) {
         super(name, cost);
         this.taste = taste;
         this.volume = volume;

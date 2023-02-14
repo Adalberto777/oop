@@ -2,7 +2,7 @@ package seminarOneR;
 
 
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -16,8 +16,8 @@ public class Main {
         goods.add(mirinda);
 
         HotWater freeInOne = new HotWater("cofe", 100, "3+1", 400, 40);
-        HotWater tea = new HotWater("tea", 60, "black", 350, 55);
-        HotWater green = new HotWater("tea", 70, "green", 350, 55);
+        HotWater tea = new HotWater("blackTea", 60, "black", 350, 55);
+        HotWater green = new HotWater("greenTea", 70, "green", 350, 55);
         HotWater americano = new HotWater("cofe", 120, "americano", 400, 40);
         hotGoods.add(freeInOne);
         hotGoods.add(tea);
