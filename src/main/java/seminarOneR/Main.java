@@ -26,6 +26,7 @@ public class Main {
 
 
         System.out.println(goods);
+        System.out.println(hotGoods);
 //        добавляем новый продукт в список продуктов обычного автомата
         VendingAutomat.initProducts(goods);
 //        поиск продукта в списке и вывод его цены в обычном автомате
