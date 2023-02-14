@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="26/01/23">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarOneR/ColdWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarOneR/HotVendingAutomate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarOneR/HotWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarOneR/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarOneR/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarOneR/VendingAutomat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarOne/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarOne/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarOne/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarOne/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarOne/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarOne/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +50,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/NewGeekBrains/Java/Java_Project/oop"
+    "last_opened_file_path": "D:/NewGeekBrains/Java/oop"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.seminarOneR.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminarOne.Main" />
       <module name="oop" />
@@ -63,8 +67,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seminarOneR.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminarOneR.Main" />
+      <module name="oop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminarOneR.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.seminarOneR.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
