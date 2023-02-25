@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="14/02/23">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/ActorBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/MarketBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/QueueBehaviour.java" afterDir="false" />
+    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="25/02/23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarTwoR/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarTwoR/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/Market.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,13 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676397537522</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="25/02/23">
+      <created>1677313609267</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677313609267</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin" />
     <MESSAGE value="26/01/23" />
     <MESSAGE value="14/02/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="14/02/23" />
+    <MESSAGE value="25/02/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/02/23" />
   </component>
 </project>

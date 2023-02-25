@@ -12,13 +12,13 @@ public class Market implements MarketBehaviour, QueueBehaviour {
 
     @Override
     public void acceptToMarket(Actor actor) {
-        System.out.println(actor.getName() + " пришел в магазин");
+        System.out.println(actor.getName() + " came to the store");
         takeInQueue(actor);
     }
 
     @Override
     public void takeInQueue(Actor actor) {
-        System.out.println(actor.getName() + " встал в очередь");
+        System.out.println(actor.getName() + " got in line");
         this.queue.add(actor);
     }
 
@@ -27,7 +27,7 @@ public class Market implements MarketBehaviour, QueueBehaviour {
         for(Actor actor: queue){
             if(!actor.isMakeOrder()){
                 actor.setMakeOrder(true);
-                System.out.println(actor.getName() + " сделал свой заказ");
+                System.out.println(actor.getName() + " as made his order");
             }
         }
     }
@@ -37,7 +37,7 @@ public class Market implements MarketBehaviour, QueueBehaviour {
         for(Actor actor: queue){
             if(actor.isMakeOrder()){
                 actor.setTakeOrder(true);
-                System.out.println(actor.getName() + " получил свой заказ");
+                System.out.println(actor.getName() + " has received his order");
             }
         }
     }
@@ -48,7 +48,7 @@ public class Market implements MarketBehaviour, QueueBehaviour {
         for(Actor actor: queue){
             if(actor.isTakeOrder()){
                 releasedActors.add(actor);
-                System.out.println(actor.getName() + " вышел из очереди и готов уходить");
+                System.out.println(actor.getName() + " has left the queue and is ready to leave");
             }
         }
         releaseFromMarket(releasedActors);
@@ -57,7 +57,7 @@ public class Market implements MarketBehaviour, QueueBehaviour {
     @Override
     public void releaseFromMarket(List<Actor> actors) {
         for(Actor actor: actors){
-            System.out.println(actor.getName() + " вышел из магазина");
+            System.out.println(actor.getName() + " left the store");
             queue.remove(actor);
         }
     }
