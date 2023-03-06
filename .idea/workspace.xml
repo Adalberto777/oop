@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="25/02/23">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarThree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarThree/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarThree/StudentComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarThree/StudentGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarThree/StudentIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarTwoR/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarTwoR/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarTwoR/Market.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677313609267</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="25/02/23">
+      <created>1677315886581</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677315886581</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
