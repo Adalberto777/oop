@@ -21,6 +21,10 @@ public class Main {
         groupStudent.addToGroup(student07);
         groupStudent.addToGroup(student08);
 
+        StudentIterator iterator = new StudentIterator(groupStudent);
 
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
     }
 }

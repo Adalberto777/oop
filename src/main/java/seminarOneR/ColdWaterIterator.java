@@ -1,10 +1,6 @@
-package seminarThree;
+package seminarOneR;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
-public class StudentIterator implements Iterator<Student> {
+public class ColdWaterIterator {
     private int counter;
     private final List<Student> students;
 
@@ -14,12 +10,11 @@ public class StudentIterator implements Iterator<Student> {
     }
     @Override
     public boolean hasNext() {
-        return counter < students.size() - 1;
+        return false;
     }
 
     @Override
     public Student next() {
-        counter++;
-        return students.get(counter);
+        return null;
     }
 }
