@@ -7,6 +7,12 @@ public class Student {
     private String secondName;
     private float averageMark;
 
+    public Student(String name, String secondName, float averageMark) {
+        this.name = name;
+        this.secondName = secondName;
+        this.averageMark = averageMark;
+    }
+
     @Override
     public String toString() {
         return "Student{" +

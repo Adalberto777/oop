@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="25/02/23">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarThree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarThree/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarThree/StudentComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarThree/StudentGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarThree/StudentIterator.java" afterDir="false" />
+    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="06/03/23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarThree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarThree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarThree/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarThree/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarThree/StudentGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarThree/StudentGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarThree/StudentIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarThree/StudentIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/NewGeekBrains/Java/oop&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.seminarTwoR.Main">
+  <component name="RunManager" selected="Application.seminarThree.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminarOne.Main" />
       <module name="oop" />
@@ -73,6 +70,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="seminarOneR.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminarThree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminarThree.Main" />
+      <module name="oop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminarThree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.seminarThree.Main" />
         <item itemvalue="Application.seminarTwoR.Main" />
         <item itemvalue="Application.seminarOneR.Main" />
         <item itemvalue="Application.Main" />
@@ -184,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677315886581</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="06/03/23">
+      <created>1678123873508</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678123873508</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +210,7 @@
     <MESSAGE value="26/01/23" />
     <MESSAGE value="14/02/23" />
     <MESSAGE value="25/02/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="25/02/23" />
+    <MESSAGE value="06/03/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="06/03/23" />
   </component>
 </project>
