@@ -1,8 +1,5 @@
 package homeWorkThree;
 
-import seminarOneR.ColdWater;
-import seminarOneR.Product;
-
 public class Main {
     public static void main(String[] args) {
 

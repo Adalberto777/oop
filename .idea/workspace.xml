@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="08/03/23">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkThree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkThree/Soda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkThree/SodaGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkThree/SodaIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarOneR/ColdWaterIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarOneR/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarOneR/Main.java" afterDir="false" />
+    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="start">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeWorkThree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWorkThree/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678305564786</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="start">
+      <created>1678376954342</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678376954342</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,6 +247,7 @@
     <MESSAGE value="25/02/23" />
     <MESSAGE value="06/03/23" />
     <MESSAGE value="08/03/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="08/03/23" />
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
   </component>
 </project>
