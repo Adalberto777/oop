@@ -36,5 +36,6 @@ public class Main {
         HotVendingAutomate.initProducts(hotGoods);
 //        поиск продукта в списке и вывод его цены в автомате горячих напитков
         HotVendingAutomate.getProduct(hotGoods);
+
     }
 }
