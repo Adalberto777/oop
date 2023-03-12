@@ -4,9 +4,9 @@ package homeWorkFour;
 import java.util.Iterator;
 import java.util.List;
 
-public class DrinksIterator implements Iterator<Drinks> {
+public class DrinksIterator<T extends Drinks> implements Iterator<T> {
     private int counter;
-    private final List<Drinks> drinks;
+    private final List<? extends Drinks> drinks;
 
     public DrinksIterator(DrinksGroup drinksGroup){
         this.counter = 0;
@@ -18,8 +18,8 @@ public class DrinksIterator implements Iterator<Drinks> {
     }
 
     @Override
-    public Drinks next() {
+    public T next() {
         counter++;
-        return drinks.get(counter);
+        return (T) drinks.get(counter);
     }
 }
