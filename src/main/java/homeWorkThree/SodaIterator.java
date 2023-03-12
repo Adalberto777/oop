@@ -1,7 +1,5 @@
 package homeWorkThree;
 
-import seminarThree.Student;
-import seminarThree.StudentGroup;
 
 import java.util.Iterator;
 import java.util.List;
