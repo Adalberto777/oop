@@ -1,4 +1,6 @@
 # oop
+## homeWorkFive
+*реализовать оидн из паттернов (singleton -https://habr.com/ru/post/129494/, builder, fabric - https://habr.com/ru/post/556512/)
 ## homeWorkFour
 * Рефакторинг уже написанных дз с учетом Обобщений
 ## homeWorkThree
