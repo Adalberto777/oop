@@ -1,6 +1,9 @@
 # oop
 ## homeWorkFive
-*реализовать оидн из паттернов (singleton -https://habr.com/ru/post/129494/, builder, fabric - https://habr.com/ru/post/556512/)
+*реализовать оидн из паттернов
+*(singleton -https://habr.com/ru/post/129494/, builder, fabric - https://habr.com/ru/post/556512/)
+## seminarFive
+* Реализовать "гибкий" конструктор с помощью паттерна BUILDER
 ## homeWorkFour
 * Рефакторинг уже написанных дз с учетом Обобщений
 ## homeWorkThree

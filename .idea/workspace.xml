@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="end 12/03/23">
+    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarFive/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarFive/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarFive/WorkerBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -55,7 +58,20 @@
       <recent name="homeWorkFour" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homeWorkFour.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminarFive.Main" />
+      <module name="oop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminarFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="homeWorkFour.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeWorkFour.Main" />
       <module name="oop" />
@@ -108,19 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminarTwoR.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminarTwoR.Main" />
-      <module name="oop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminarTwoR.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.homeWorkFour.Main" />
         <item itemvalue="Application.homeWorkThree.Main" />
         <item itemvalue="Application.seminarThree.Main" />
         <item itemvalue="Application.seminarOneR.Main" />
-        <item itemvalue="Application.seminarTwoR.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678638487057</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="new">
+      <created>1679421180342</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679421180342</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -284,6 +294,7 @@
     <MESSAGE value="09/03/23" />
     <MESSAGE value="start 12/03/23" />
     <MESSAGE value="end 12/03/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="end 12/03/23" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>
