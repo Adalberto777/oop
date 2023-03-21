@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="new1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/Main.java" afterDir="false" />
+    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="new2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/Tractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/TractorSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeWorkFive/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeWorkFive/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679429262459</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="new2">
+      <created>1679433839095</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679433839095</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -302,6 +310,7 @@
     <MESSAGE value="end 12/03/23" />
     <MESSAGE value="new" />
     <MESSAGE value="new1" />
-    <option name="LAST_COMMIT_MESSAGE" value="new1" />
+    <MESSAGE value="new2" />
+    <option name="LAST_COMMIT_MESSAGE" value="new2" />
   </component>
 </project>

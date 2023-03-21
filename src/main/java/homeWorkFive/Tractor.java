@@ -1,12 +1,11 @@
 package homeWorkFive;
 
+public class Tractor {
+    private String name = "Belarus";
+    private String equipment = "second";
+    private double coast = 7.00;
+    private String dateOfManufacture = "15.12.2022";
 
-
-public class Car {
-    private String name;
-    private String equipment;
-    private double coast;
-    private String dateOfManufacture;
 
     public String getName() {
         return name;
