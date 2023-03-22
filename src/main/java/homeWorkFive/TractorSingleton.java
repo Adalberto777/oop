@@ -2,7 +2,7 @@ package homeWorkFive;
 
 public class TractorSingleton {
     private static TractorSingleton instance;
-    Tractor obj;
+    Tractor obj = new Tractor("Belarus", "with a bucket", 7.00, "15.12.2023");
 
     private TractorSingleton(){
 

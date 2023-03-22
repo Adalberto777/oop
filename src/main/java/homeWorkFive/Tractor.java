@@ -1,11 +1,17 @@
 package homeWorkFive;
 
 public class Tractor {
-    private String name = "Belarus";
-    private String equipment = "second";
-    private double coast = 7.00;
-    private String dateOfManufacture = "15.12.2022";
+    private String name;
+    private String equipment;
+    private double coast;
+    private String dateOfManufacture;
 
+    public Tractor(String name, String equipment, double coast, String dateOfManufacture) {
+        this.name = name;
+        this.equipment = equipment;
+        this.coast = coast;
+        this.dateOfManufacture = dateOfManufacture;
+    }
 
     public String getName() {
         return name;
