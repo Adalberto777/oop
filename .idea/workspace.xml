@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="new5">
+    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="new 7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkSix/model/AlcoholDrinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkSix/model/Drinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkSix/model/DrinksGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkSix/model/DrinksIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeWorkSix/model/NonAlcoholDrinks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/model/StudentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/StudentBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/model/TeacherBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/TeacherBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeWorkSix/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWorkSix/view/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +64,12 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="homeWorkFour" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homeWorkSix.view" />
+      <recent name="homeWorkSix.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.View">
+  <component name="RunManager" selected="Application.homeWorkSix.view.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminarFive.Main" />
       <module name="oop" />
@@ -120,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeWorkThree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWorkThree.Main" />
+    <configuration name="homeWorkSix.view.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWorkSix.view.Main" />
       <module name="oop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWorkThree.Soda" />
+          <option name="PATTERN" value="homeWorkSix.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeWorkSix.view.Main" />
+        <item itemvalue="Application.homeWorkFour.Main" />
         <item itemvalue="Application.View" />
         <item itemvalue="Application.homeWorkFive.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.homeWorkFour.Main" />
-        <item itemvalue="Application.homeWorkThree.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679593185217</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="6">
+      <created>1679601884308</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679601884308</updated>
+    </task>
+    <task id="LOCAL-00025" summary="new 7">
+      <created>1679602228967</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679602228967</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,6 +371,8 @@
     <MESSAGE value="new3" />
     <MESSAGE value="new4" />
     <MESSAGE value="new5" />
-    <option name="LAST_COMMIT_MESSAGE" value="new5" />
+    <MESSAGE value="6" />
+    <MESSAGE value="new 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="new 7" />
   </component>
 </project>
