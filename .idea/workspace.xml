@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="new3">
+    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="new4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/StudentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/TeacherBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homeWorkFive/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homeWorkFive/Tractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/Tractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homeWorkFive/TractorSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeWorkFive/TractorSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,13 +68,26 @@
       <recent name="homeWorkFour" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homeWorkFive.Main">
+  <component name="RunManager" selected="Application.View">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminarFive.Main" />
       <module name="oop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="seminarFive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminarSix.view.View" />
+      <module name="oop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminarSix.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,19 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminarThree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminarThree.Main" />
-      <module name="oop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminarThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.View" />
         <item itemvalue="Application.homeWorkFive.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.homeWorkFour.Main" />
         <item itemvalue="Application.homeWorkThree.Main" />
-        <item itemvalue="Application.seminarThree.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679439920228</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="new4">
+      <created>1679495383912</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679495383912</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,6 +347,7 @@
     <MESSAGE value="new1" />
     <MESSAGE value="new2" />
     <MESSAGE value="new3" />
-    <option name="LAST_COMMIT_MESSAGE" value="new3" />
+    <MESSAGE value="new4" />
+    <option name="LAST_COMMIT_MESSAGE" value="new4" />
   </component>
 </project>
