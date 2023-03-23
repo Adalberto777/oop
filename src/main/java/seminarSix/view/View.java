@@ -12,10 +12,11 @@ import static java.lang.StringBuilder.*;
 public class View {
     public static void main(String[] args) {
         UserController userController = new UserController();
-        Student student = StudentBuilder.getInstance().setName("Albert").setAverageScore(4.00).build();
+        Student student = StudentBuilder.getInstance().setName("Albert").setAverageScore(4.00).setFormOfTraining("paid").build();
         userController.saveUser(student);
-        Teacher teacher = TeacherBuilder.getInstance().setName("Don_Albert").setSpecialization("Informatics").setCategory("the_highest_category").build();
+        Teacher teacher = TeacherBuilder.getInstance().setName("Don_Adalberto").setSpecialization("Informatics").setCategory("the_highest_category").build();
         userController.saveUser(teacher);
+        userController.getUser();
     }
 
 }

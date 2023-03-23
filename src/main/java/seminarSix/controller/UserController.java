@@ -14,4 +14,7 @@ public class UserController <T extends User> {
     public void saveUser(Teacher teacher){
         service.saveUser(teacher);
     }
+    public void getUser(){
+        service.getUser();
+    }
 }

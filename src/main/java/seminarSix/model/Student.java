@@ -12,7 +12,7 @@ public class Student extends User{
 
     }
 
-    public double setAverageScore() {
+    public double getAverageScore() {
         return averageScore;
     }
 
@@ -27,6 +27,16 @@ public class Student extends User{
     public void setFormOfTraining(String formOfTraining) {
         this.formOfTraining = formOfTraining;
     }
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String getName() {
+        return super.name;
+    }
+
 
     @Override
     public String toString() {
@@ -37,8 +47,5 @@ public class Student extends User{
                 '}';
     }
 
-    @Override
-    public void setName(String name) {
 
-    }
 }

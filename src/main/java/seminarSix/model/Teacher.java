@@ -4,14 +4,12 @@ public class Teacher extends User{
     String specialization;
     String category;
 
-    public Teacher(String name, String specialization, String category) {
+    public Teacher(String name) {
         super(name);
-        this.specialization = specialization;
-        this.category = category;
     }
 
     public Teacher() {
-        super();
+
     }
 
     @Override
@@ -30,7 +28,7 @@ public class Teacher extends User{
 
     @Override
     public void setName(String name) {
-
+        this.name = name;
     }
 
     public String getSpecialization() {

@@ -9,11 +9,9 @@ public class TeacherBuilder {
         instance.teacher = new Teacher();
         return instance;
     }
-    public Teacher build(){
-        return teacher;
-    }
+
     public TeacherBuilder setSpecialization(String specialization){
-        teacher.getSpecialization();
+        teacher.setSpecialization(specialization);
         return this;
     }
     public TeacherBuilder setCategory(String category){
@@ -23,5 +21,8 @@ public class TeacherBuilder {
     public TeacherBuilder setName(String name){
         teacher.setName(name);
         return this;
+    }
+    public Teacher build(){
+        return teacher;
     }
 }

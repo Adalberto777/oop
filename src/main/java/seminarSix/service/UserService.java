@@ -8,6 +8,18 @@ public interface UserService {
     void saveUser(User user);
 
     void saveUser(Student student);
+
     void saveUser(Teacher teacher);
 
+    void readStudent(String student);
+
+    void readTeacher(String teacher);
+
+    void getStudent(String student);
+
+    void getTeacher(String teacher);
+
+    abstract void getUser(String teacher);
+
+    abstract void getUser();
 }

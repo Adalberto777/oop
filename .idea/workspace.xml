@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="new4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/StudentBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/TeacherBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminarSix/view/View.java" afterDir="false" />
+    <list default="true" id="072c9297-b869-473f-b3fa-088bfc9e5d96" name="Changes" comment="new5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/model/StudentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/StudentBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/model/TeacherBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/model/TeacherBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminarSix/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminarSix/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +53,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/NewGeekBrains/Java/oop&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
+    "last_opened_file_path": "D:/NewGeekBrains/Java/oop"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="homeWorkFour" />
@@ -318,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679495383912</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="new5">
+      <created>1679593185217</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679593185217</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,6 +354,7 @@
     <MESSAGE value="new2" />
     <MESSAGE value="new3" />
     <MESSAGE value="new4" />
-    <option name="LAST_COMMIT_MESSAGE" value="new4" />
+    <MESSAGE value="new5" />
+    <option name="LAST_COMMIT_MESSAGE" value="new5" />
   </component>
 </project>
