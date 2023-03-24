@@ -21,8 +21,8 @@ public class UserServiceImpl implements UserService {
         try(FileWriter fileWriter = new FileWriter("user01.txt")){
             fileWriter.write(student.toString());
         }catch (Exception e){
-            logger.warning("We have a problem");}
-
+            logger.warning("We have a problem");
+        }
     }
     @Override
     public void saveUser(Teacher teacher) {
