@@ -1,23 +1,19 @@
-using (homeWorkSeven.model);
+using homeWorkSeven;
 
-public abstract class Product {
+public abstract class Product {    
     protected string name;
     public Product(){
 
     }
 
-    @Override
-    public string toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                '}';
-    }
-
-    public string getName() {
+    public string GetName() {
         return name;
     }
 
-    public void setName(string name) {
+    public void SetName(string name) {
         this.name = name;
-    }
+    }  
+
+    
+    
 }

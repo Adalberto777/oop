@@ -1,8 +1,5 @@
-using (homeWorkSeven.view);
+using (homeWorkSeven);
 
-using (homeWorkSeven.controller.ProductController);
-using (homeWorkSeven.model.Water);
-using (homeWorkSeven.model.WaterBuilder);
 
 public class Main {
     public static void main(String[] args) {

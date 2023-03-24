@@ -1,35 +1,56 @@
-using (homeWorkSeven.service);
-
-using (homeWorkSeven.model.Product);
-using (homeWorkSeven.model.Water);
+using homeWorkSeven;
+using System.IO;
 
 
-
-public class ProductServiceImpl implements ProductService {
+public class ProductServiceImpl : ProductService {
+    
     Logger logger= Logger.getAnonymousLogger();
 
-    @Override
-    public void saveProduct(Product product) {
+    
+    public void SaveProduct(Product product) {        
     }
 
-    @Override
-    public void saveProduct(Water water) {
-        try(FileWriter fileWriter = new FileWriter("water.txt")){
-            fileWriter.write(water.toString());
-        }catch (Exception e){
+    
+    public void SaveProduct(Water water) { 
+        try
+        {
+            StreamWriter sw = new StreamWriter("water.txt");
+            sw.WriteLine(water.toString());
+            sw.Close();
+        }
+        catch(Exception e)
+        {
             logger.warning("Houston, we have a problem");
         }
-    }
+        finally
+        {
+            Console.WriteLine("Executing finally block.");
+        }
+        }
 
-    @Override
-    public void getProduct() {
-        try(FileReader fileReader = new FileReader("water.txt")){
-            int c;
-            while ((c=fileReader.read())!=-1){
-                System.out.print((char) c);
+    public void GetProduct() {
+        String line;
+        try
+        {
+            StreamReader sr = new StreamReader("water.txt");
+            line = sr.ReadLine();
+            while (line != null)
+            {
+                Console.WriteLine(line);
+                line = sr.ReadLine();
             }
-        }catch (Exception e){
+            sr.Close();
+            Console.ReadLine();
+        }
+        catch(Exception e)
+        {
             logger.warning("Houston, we have a problem");
         }
+        finally
+        {
+            Console.WriteLine("Executing finally block.");
+        }
+
+        
     }
 }

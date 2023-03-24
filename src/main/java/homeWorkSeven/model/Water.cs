@@ -1,4 +1,4 @@
-using (homeWorkSeven.model);
+using homeWorkSeven;
 
 
 public class Water : Product {
@@ -8,38 +8,29 @@ public class Water : Product {
 
     }
 
-    public double getPrice() {
+    public double GetPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void SetPrice(double price) {
         this.price = price;
     }
 
-    public double getVolume() {
+    public double GetVolume() {
         return volume;
     }
 
-    public void setVolume(double volume) {
+    public void SetVolume(double volume) {
         this.volume = volume;
     }
 
-    @Override
-    public string getName() {
-        return super.getName();
+    public string GetName() {
+        return base.getName();
     }
 
-    @Override
-    public void setName(string name) {
-        super.setName(name);
+    public void SetName(string name) {
+        base.setName(name);
     }
 
-    @Override
-    public string toString() {
-        return "Water{" +
-                "price=" + price +
-                ", volume=" + volume +
-                ", name='" + name + '\'' +
-                '}';
-    }
+    
 }

@@ -1,9 +1,6 @@
-using (homeWorkSeven.controller);
+using homeWorkSeven;
 
-using (homeWorkSeven.model.Product);
-using (homeWorkSeven.model.Water);
-using (homeWorkSeven.service.ProductService);
-using (homeWorkSeven.service.ProductServiceImpl);
+
 
 public class ProductController <T , Product>{
     private static ProductService productService = new ProductServiceImpl();
