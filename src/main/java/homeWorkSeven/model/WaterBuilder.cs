@@ -1,30 +1,52 @@
-using model;
-
-namespace model
-{
+namespace homeWorkSeven{
     public class WaterBuilder
-    {
-        public static WaterBuilder instance;
-        public Water water;
-        public static WaterBuilder getInstance() {
-            instance = new WaterBuilder();
-            instance.water = new Water();
-            return instance;
-        }
-        public WaterBuilder setPrice(double price){
-            water.setPrice(price);
-            return this;
-        }
-        public WaterBuilder setVolume(double volume){
-            water.setVolume(volume);
-            return this;
-        }
-        public WaterBuilder setName(string name){
-            water.setName(name);
-            return this;
-        }
-        public Water build(){
-            return water;
-        }
+{
+    public static WaterBuilder instance;
+    public Water water;
+    public static WaterBuilder GetInstance() {
+        instance = new WaterBuilder();
+        instance.water = new Water();
+        return instance;
+    }
+    public WaterBuilder SetPrice(double price){
+        water.SetPrice(price);
+        return this;
+    }
+    public WaterBuilder SetVolume(double volume){
+        water.SetVolume(volume);
+        return this;
+    }
+    public WaterBuilder SetName(string name){
+        water.SetName(name);
+        return this;
+    }
+    public Water Build(){
+        return water;
+    }
+}
+}
+public class WaterBuilder
+{
+    public static WaterBuilder instance;
+    public Water water;
+    public static WaterBuilder GetInstance() {
+        instance = new WaterBuilder();
+        instance.water = new Water();
+        return instance;
+    }
+    public WaterBuilder SetPrice(double price){
+        water.SetPrice(price);
+        return this;
+    }
+    public WaterBuilder SetVolume(double volume){
+        water.SetVolume(volume);
+        return this;
+    }
+    public WaterBuilder SetName(string name){
+        water.SetName(name);
+        return this;
+    }
+    public Water Build(){
+        return water;
     }
 }

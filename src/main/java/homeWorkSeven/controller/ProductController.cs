@@ -1,18 +1,21 @@
-using controller;
-
-namespace controller
+namespace homeWorkSeven{
+    public class ProductController 
 {
-    public class ProductController <T , Product>
-    {
-        private static ProductService productService = new ProductServiceImpl();
-        public static void saveProduct(Water water)
-        {
-            productService.saveProduct(water);
-        }
+    private static ProductService productService = new ProductServiceImpl();
 
-        public static void getProduct()
-        {
-            productService.getProduct();
-        }
+    public static void SaveProduct()
+    {
+        productService.SaveProduct();
     }
+    public static void SaveProduct(Water water)
+    {
+        productService.SaveProduct(water);
+    }
+
+    public static void GetProduct()
+    {
+        productService.GetProduct();
+    }
+}
+
 }
