@@ -1,4 +1,6 @@
-namespace homeWorkSeven
+using controller;
+
+namespace controller
 {
     public class ProductController <T , Product>
     {

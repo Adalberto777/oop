@@ -1,4 +1,6 @@
-namespace homeWorkSeven
+using model;
+
+namespace model
 {
     public class Water : Product
     {

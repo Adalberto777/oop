@@ -1,4 +1,6 @@
-namespace homeWorkSeven
+using service;
+
+namespace service
 {
     public class ProductServiceImpl : ProductService 
     {
