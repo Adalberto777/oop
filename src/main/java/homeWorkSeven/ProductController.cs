@@ -1,5 +1,4 @@
-namespace homeWorkSeven{
-    public class ProductController 
+public class ProductController 
 {
     private static ProductService productService = new ProductServiceImpl();
 
@@ -16,6 +15,4 @@ namespace homeWorkSeven{
     {
         productService.GetProduct();
     }
-}
-
 }

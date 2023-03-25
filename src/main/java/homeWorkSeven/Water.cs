@@ -1,5 +1,4 @@
-namespace homeWorkSeven{
-    public class Water : Product
+public class Water : Product
 {
     private double price;
     private double volume;
@@ -43,6 +42,4 @@ namespace homeWorkSeven{
                 ", volume=" + volume + '\'' +
                 '}'; 
     }    
-}
-
 }

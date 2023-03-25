@@ -1,6 +1,4 @@
-
-namespace homeWorkSeven{
-    public abstract class Product
+public abstract class Product
 {    
     protected string name = "name";
     public Product(){}
@@ -15,6 +13,4 @@ namespace homeWorkSeven{
         this.name = name;
     } 
     
-}
-
 }

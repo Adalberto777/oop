@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NewGeekBrains\\C_Sharp\\oop\\src\\main\\java\\homeWorkSeven\\view\\view.csproj",
-      "projectName": "view",
-      "projectPath": "D:\\NewGeekBrains\\C_Sharp\\oop\\src\\main\\java\\homeWorkSeven\\view\\view.csproj",
+      "projectUniqueName": "D:\\NewGeekBrains\\C_Sharp\\oop\\src\\main\\java\\homeWorkSeven\\homeWorkSeven.csproj",
+      "projectName": "homeWorkSeven",
+      "projectPath": "D:\\NewGeekBrains\\C_Sharp\\oop\\src\\main\\java\\homeWorkSeven\\homeWorkSeven.csproj",
       "packagesPath": "C:\\Users\\Don_A\\.nuget\\packages\\",
-      "outputPath": "D:\\NewGeekBrains\\C_Sharp\\oop\\src\\main\\java\\homeWorkSeven\\view\\obj\\",
+      "outputPath": "D:\\NewGeekBrains\\C_Sharp\\oop\\src\\main\\java\\homeWorkSeven\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Don_A\\AppData\\Roaming\\NuGet\\NuGet.Config"

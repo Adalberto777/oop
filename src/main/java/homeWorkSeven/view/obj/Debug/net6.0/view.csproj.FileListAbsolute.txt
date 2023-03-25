@@ -1,5 +1,0 @@
-D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\view\obj\Debug\net6.0\view.csproj.AssemblyReference.cache
-D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\view\obj\Debug\net6.0\view.GeneratedMSBuildEditorConfig.editorconfig
-D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\view\obj\Debug\net6.0\view.AssemblyInfoInputs.cache
-D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\view\obj\Debug\net6.0\view.AssemblyInfo.cs
-D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\view\obj\Debug\net6.0\view.csproj.CoreCompileInputs.cache

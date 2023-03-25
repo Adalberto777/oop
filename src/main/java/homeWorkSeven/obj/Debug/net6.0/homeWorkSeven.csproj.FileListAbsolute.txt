@@ -1,0 +1,15 @@
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\bin\Debug\net6.0\homeWorkSeven.exe
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\bin\Debug\net6.0\homeWorkSeven.deps.json
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\bin\Debug\net6.0\homeWorkSeven.runtimeconfig.json
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\bin\Debug\net6.0\homeWorkSeven.dll
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\bin\Debug\net6.0\homeWorkSeven.pdb
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\obj\Debug\net6.0\homeWorkSeven.csproj.AssemblyReference.cache
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\obj\Debug\net6.0\homeWorkSeven.GeneratedMSBuildEditorConfig.editorconfig
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\obj\Debug\net6.0\homeWorkSeven.AssemblyInfoInputs.cache
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\obj\Debug\net6.0\homeWorkSeven.AssemblyInfo.cs
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\obj\Debug\net6.0\homeWorkSeven.csproj.CoreCompileInputs.cache
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\obj\Debug\net6.0\homeWorkSeven.dll
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\obj\Debug\net6.0\refint\homeWorkSeven.dll
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\obj\Debug\net6.0\homeWorkSeven.pdb
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\obj\Debug\net6.0\homeWorkSeven.genruntimeconfig.cache
+D:\NewGeekBrains\C_Sharp\oop\src\main\java\homeWorkSeven\obj\Debug\net6.0\ref\homeWorkSeven.dll
